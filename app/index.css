@@ -44,3 +44,28 @@ li {
 .nav-link:hover {
   color:red;
 }
+
+.footer {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-text {
+  font-size: 12px;
+  columns: #636363;
+}
+
+.footer-link {
+  margin-left: 3px;
+  color: blue;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color:red;
+  text-decoration: dotted underline;
+}
