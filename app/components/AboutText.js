@@ -8,7 +8,7 @@ export default class AboutText extends React.Component {
                     This website application was developed by 
                     <a href={this.props.website} className="footer-link" target="_blank">
                         {this.props.name}
-                    </a> while using the <span class="framework-name">
+                    </a> while using the <span className="framework-name">
                         {this.props.framework
                         ? `while using the ` + this.props.framework 
                         : ``}
